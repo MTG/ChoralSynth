@@ -1,0 +1,29 @@
+{
+    "parts": [
+        {
+            "id": 1,
+            "name": "SOPRANO",
+            "type": "soprano"
+        },
+        {
+            "id": 2,
+            "name": "ALTO",
+            "type": "alto"
+        },
+        {
+            "id": 3,
+            "name": "TENOR",
+            "type": "tenor"
+        },
+        {
+            "id": 4,
+            "name": "BASS",
+            "type": "bass"
+        },
+        {
+            "id": 5,
+            "name": "Piano",
+            "type": "accompaniment"
+        }
+    ]
+}

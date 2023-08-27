@@ -1,0 +1,19 @@
+{
+    "parts": [
+        {
+            "id": 1,
+            "name": "Soprano",
+            "type": "soprano"
+        },
+        {
+            "id": 2,
+            "name": "Alto",
+            "type": "alto"
+        },
+        {
+            "id": 3,
+            "name": "Organ",
+            "type": "accompaniment"
+        }
+    ]
+}

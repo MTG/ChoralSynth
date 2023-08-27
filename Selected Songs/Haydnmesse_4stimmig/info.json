@@ -1,0 +1,24 @@
+{
+    "parts": [
+        {
+            "id": 1,
+            "name": "Voice",
+            "type": "alto"
+        },
+        {
+            "id": 2,
+            "name": "Voice 2",
+            "type": "alto"
+        },
+        {
+            "id": 3,
+            "name": "Voice 3",
+            "type": "alto"
+        },
+        {
+            "id": 4,
+            "name": "Voice 4",
+            "type": "alto"
+        }
+    ]
+}

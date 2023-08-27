@@ -1,0 +1,44 @@
+{
+    "parts": [
+        {
+            "id": 1,
+            "name": "Cantus Ch1-C1",
+            "type": "soprano"
+        },
+        {
+            "id": 2,
+            "name": "Altus Ch1-C3",
+            "type": "alto"
+        },
+        {
+            "id": 3,
+            "name": "Tenor Ch1-C4",
+            "type": "tenor"
+        },
+        {
+            "id": 4,
+            "name": "Bassus Ch1-F4",
+            "type": "bass"
+        },
+        {
+            "id": 5,
+            "name": "Cantus Ch2-C3",
+            "type": "soprano"
+        },
+        {
+            "id": 6,
+            "name": "Altus Ch2-C4",
+            "type": "alto"
+        },
+        {
+            "id": 7,
+            "name": "Tenor Ch2-C4",
+            "type": "tenor"
+        },
+        {
+            "id": 8,
+            "name": "Bassus Ch2-F4",
+            "type": "bass"
+        }
+    ]
+}
