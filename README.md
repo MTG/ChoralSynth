@@ -25,3 +25,20 @@ cd CPDL \
 python3 -m venv venv  \
 source venv/bin/activate \
 pip install -r requirements.txt
+
+# Code
+
+├── LICENSE
+├── README.md
+├── data_analysis_viviana.xlsx
+├── requirements.txt
+└── src
+    └── scripts
+        ├── CPDL_data_filtering.ipynb
+        ├── Convert to MIDI.ipynb
+        ├── Song Analysis.ipynb
+        ├── correct_file_names_removed_treble_wrong_lyrics_cpdl_repeat1.csv
+        └── correct_file_names_removed_treble_wrong_lyrics_cpdl_repeat2.csv
+
+# License
+Dataset license is detailed in Zenodo
