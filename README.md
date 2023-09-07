@@ -1,11 +1,16 @@
 # Dataset
-CPDL is a synthesized dataset of 20 choral songs curated by carefully listening and analyzing a set of synthetic choral songs obtained from VoiceMod. The resulting dataset can be used for the task of source separation or other musicological research. 
-The dataset curation was carried out in the following steps:
+### Overview
+CPDL is a synthesized dataset of 20 choral songs curated by carefully listening and analyzing a set of synthetic choral songs obtained from VoiceMod. The resulting dataset can serve as a valuable resource for various musicological research endeavors, particularly in the field of source separation.
 
-(1) Automatic Filtering: The initial step involved the automatic filtering of scores using predefined musicological criteria, as identified by a musician.\
-(2) Manual Verification: Subsequently, manually listening and validating the resulting filtered songs obtained from step 1 using the identified criteria. \
+### Dataset Curation Process
+(1) **Manual Criteria Design**: The initial step involved the manual design of filtering criteria. This design was based on a careful examination of over 300 scores and their corresponding synthesized versions to ensure comprehensive and relevant criteria.
+(2) **Automatic Filtering**: Subsequently, the designed criteria were used for automatic filtering of the scores. 
+(3) **Manual Verification**: The filtered songs from step 2 were then examined again manually, 
+validating the synthetic versions through attentive listening, ensuring they demonstrated completeness and a resemblance to human singing. 
 
-The process of automatic filtering along with resulting statistics is presented in the supporting notebook, with csv files indicating the resulting scores that were used for analysis. \
+### Dataset Details
+
+Detailed statistics and insights regarding the automatic filtering process, along with resulting statistics, can be found in the accompanying supporting notebook. Additionally, CSV files are provided, indicating the specific scores that were selected for further analysis.
 
 At this point, we have curated a set of 20 songs, however, the methodology can be extended to add more songs from the resulting list. 
 
@@ -15,8 +20,8 @@ The dataset is available for conducting non-commercial research related to chora
 # Installation
 The authors recommend the use of virtual environments.
 
-git clone https://github.com/MTG/CPDL.git
-cd CPDL
-python3 -m venv venv
-source venv/bin/activate
+git clone https://github.com/MTG/CPDL.git \
+cd CPDL \
+python3 -m venv venv  \
+source venv/bin/activate \
 pip install -r requirements.txt
