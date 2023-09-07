@@ -3,8 +3,8 @@
 CPDL is a synthesized dataset of 20 choral songs curated by carefully listening and analyzing a set of synthetic choral songs obtained from VoiceMod. The resulting dataset can serve as a valuable resource for various musicological research endeavors, particularly in the field of source separation.
 
 ### Dataset Curation Process
-(1) **Manual Criteria Design**: The initial step involved the manual design of filtering criteria. This design was based on a careful examination of over 300 scores and their corresponding synthesized versions to ensure comprehensive and relevant criteria.
-(2) **Automatic Filtering**: Subsequently, the designed criteria were used for automatic filtering of the scores. 
+(1) **Manual Criteria Design**: The initial step involved the manual design of filtering criteria. This design was based on a careful examination of over 300 scores and their corresponding synthesized versions to ensure comprehensive and relevant criteria. \
+(2) **Automatic Filtering**: Subsequently, the designed criteria were used for automatic filtering of the scores. \
 (3) **Manual Verification**: The filtered songs from step 2 were then examined again manually, 
 validating the synthetic versions through attentive listening, ensuring they demonstrated completeness and a resemblance to human singing. 
 
