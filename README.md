@@ -19,15 +19,17 @@ The dataset is available for conducting non-commercial research related to chora
 
 # Installation
 The authors recommend the use of virtual environments.
-
+```
 git clone https://github.com/MTG/CPDL.git \
 cd CPDL \
 python3 -m venv venv  \
 source venv/bin/activate \
 pip install -r requirements.txt
-
+```
 # Code
 
+```
+.
 ├── LICENSE
 ├── README.md
 ├── data_analysis_viviana.xlsx
@@ -39,6 +41,7 @@ pip install -r requirements.txt
         ├── Song Analysis.ipynb
         ├── correct_file_names_removed_treble_wrong_lyrics_cpdl_repeat1.csv
         └── correct_file_names_removed_treble_wrong_lyrics_cpdl_repeat2.csv
+```
 
 # License
 Dataset license is detailed in Zenodo
