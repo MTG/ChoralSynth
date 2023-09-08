@@ -20,10 +20,10 @@ The dataset is available for conducting non-commercial research related to chora
 # Installation
 The authors recommend the use of virtual environments.
 ```
-git clone https://github.com/MTG/CPDL.git \
-cd CPDL \
-python3 -m venv venv  \
-source venv/bin/activate \
+git clone https://github.com/MTG/CPDL.git 
+cd CPDL 
+python3 -m venv venv  
+source venv/bin/activate 
 pip install -r requirements.txt
 ```
 # Code
