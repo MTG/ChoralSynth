@@ -1,6 +1,6 @@
 # Dataset
 ### Overview
-CPDL is a synthesized dataset of 20 choral songs curated by carefully listening and analyzing a set of synthetic choral songs obtained from VoiceMod. The resulting dataset can serve as a valuable resource for various musicological research endeavors, particularly in the field of source separation.
+ChoralSynth is a synthesized dataset of 20 multitrack choral songs curated by carefully listening and analyzing a set of synthetic choral songs obtained using one of the state-of-the-art synthesizers. The resulting dataset can serve as a valuable resource for various MIR research endeavors like source separation, melodic analysis, chord analysis, rhythmic analysis amongst others.
 
 ### Dataset Curation Process
 - **Manual Criteria Design**: The initial step involved the manual design of filtering criteria. This design was based on a careful examination of over 300 scores and their corresponding synthesized versions to ensure comprehensive and relevant criteria. \
