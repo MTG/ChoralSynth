@@ -2,6 +2,8 @@
 ### Overview
 ChoralSynth is a synthesized dataset of 20 multitrack choral songs curated by carefully listening and analyzing a set of synthetic choral songs generated using one of the state-of-the-art synthesizers. The resulting dataset can serve as a valuable resource for various MIR research endeavors like source separation, melodic analysis, chord analysis, rhythmic analysis amongst others.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10137596.svg)](https://doi.org/10.5281/zenodo.10137596)
+
 ### Dataset Curation Process
 - **Manual Criteria Design**: The initial step involved the manual design of filtering criteria. This design was based on a careful examination of over 300 scores and their corresponding synthesized versions to ensure comprehensive and relevant criteria. \
 - **Automatic Filtering**: Subsequently, the designed criteria were used for automatic filtering of the scores. \
@@ -15,7 +17,8 @@ Detailed statistics and insights regarding the automatic filtering process, alon
 At this point, we have curated a set of 20 songs, however, the methodology can be extended to add more songs from the resulting list. 
 
 ## Downloading the data
-The dataset is available for conducting non-commercial research related to choral singing. It is available upon request on Zenodo alongside an extended description of the selected songs, motivation, license, and ownership of the data.
+The dataset is available for conducting non-commercial research related to choral singing. It is available for download on Zenodo as well.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10137883.svg)](https://doi.org/10.5281/zenodo.10137883)
 
 # Installation
 The authors recommend the use of virtual environments.
