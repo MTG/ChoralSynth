@@ -24,8 +24,8 @@ The dataset is available for conducting non-commercial research related to chora
 # Installation
 The authors recommend the use of virtual environments.
 ```
-git clone https://github.com/MTG/CPDL.git 
-cd CPDL 
+git clone https://github.com/MTG/ChoralSynth.git 
+cd ChoralSynth 
 python3 -m venv venv  
 source venv/bin/activate 
 pip install -r requirements.txt
@@ -34,19 +34,38 @@ pip install -r requirements.txt
 
 ```
 .
-├── LICENSE
+├── Dataset
 ├── README.md
+├── choralsynth.txt
 ├── data_analysis_viviana.xlsx
 ├── requirements.txt
 └── src
     └── scripts
-        ├── CPDL_data_filtering.ipynb
+        ├── CPDL data filtering.ipynb
         ├── Convert to MIDI.ipynb
-        ├── Song Analysis.ipynb
         ├── correct_file_names_removed_treble_wrong_lyrics_cpdl_repeat1.csv
         └── correct_file_names_removed_treble_wrong_lyrics_cpdl_repeat2.csv
+
 ```
 
+# Citation
+
+Please use the following [publication](https://arxiv.org/abs/2311.08350) when using the dataset:
+
+> Narang, J., De La Vega, V., Lizarraga, X., Mayor, O., Parra, H., Janer, J., & Serra, X. (2023). ChoralSynth: Synthetic Dataset of Choral Singing. arXiv preprint arXiv:2311.08350.
+
+Bibtex version:
+```
+@article{narang2023choralsynth,
+        title={ChoralSynth: Synthetic Dataset of Choral Singing}, 
+        author={Jyoti Narang and Viviana De La Vega and Xavier Lizarraga and Oscar Mayor and Hector Parra 
+                and Jordi Janer and   Xavier Serra},
+        year={2023},
+        eprint={2311.08350},
+        archivePrefix={arXiv},
+        primaryClass={cs.SD}
+        }
+```
 # License
 ChoralSynth is licensed under CC BY-NC-SA 4.0
 [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
